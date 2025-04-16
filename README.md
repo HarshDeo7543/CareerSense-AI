@@ -1,15 +1,15 @@
-### Make sure to create a `.env` file with following variables -
+DATABASE_URL=postgresql://harsh:npg_Xaiy5qQZebz7@ep-long-rain-a8vt59iy-pooler.eastus2.azure.neon.tech/sensai?sslmode=require
 
-```
-DATABASE_URL=
+# NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_dW5pdGVkLWpheWJpcmQtMTMuY2xlcmsuYWNjb3VudHMuZGV2JA
+# CLERK_SECRET_KEY=sk_test_65W0u39CrjcqBV2D4dyFzhLj1nCS0mOwa57SeYTFTJ
 
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_cG93ZXJmdWwtZm94aG91bmQtOTcuY2xlcmsuYWNjb3VudHMuZGV2JA
+CLERK_SECRET_KEY=sk_test_XMAeGU5a7vyY7DJyuGhDMGtQ6s8QafC22t8cf4BfKd
 
 NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
 NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
 NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/onboarding
 NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/onboarding
 
-GEMINI_API_KEY=
-```
+GEMINI_API_KEY=AIzaSyAVeFEkGB3XtKIGrGbtXcaXsp9i7N9GFWg
+
